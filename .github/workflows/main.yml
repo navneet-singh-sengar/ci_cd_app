@@ -32,13 +32,13 @@ jobs:
       # - run: flutter build appbundle
       # Step to Submit the generated APK to Firebase App Distribution
         # name: upload artifact to Firebase App Distribution
-      - name: upload artifact to Firebase App Distribution
-        uses: wzieba/Firebase-Distribution-Github-Action@v1
-        with:
-          appId: 1:839672061551:android:990305961216a2de37379a
-          serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
-          groups: ci_di_group
-          file: build/app/outputs/flutter-apk/app-release.apk
+      # - name: upload artifact to Firebase App Distribution
+      #   uses: wzieba/Firebase-Distribution-Github-Action@v1
+      #   with:
+      #     appId: 1:839672061551:android:990305961216a2de37379a
+      #     serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
+      #     groups: ci_di_group
+      #     file: build/app/outputs/flutter-apk/app-release.apk
 
 
   # build_ios:
