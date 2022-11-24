@@ -34,7 +34,7 @@ jobs:
         uses: wzieba/Firebase-Distribution-Github-Action@v1.2.1
         with:
           appId: 1:839672061551:android:990305961216a2de37379a
-          serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
+          token: 1//0gpJhCFKMH2XXCgYIARAAGBASNwF-L9IrIDI8SY8kPhV-FsaQwlWlrlwfsEJcrU5Cr2KK9OrpfESY5O6-N7KK1AHxKKRI9IIoMGM
           groups: ci_di_group
           file: build/app/outputs/flutter-apk/app-release.apk
 
